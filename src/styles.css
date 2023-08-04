@@ -1,0 +1,150 @@
+body{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Quentin";
+  src: url("./Quentin-Font/Quentin.ttf") format("truetype");
+  /* Additional font formats can be added here, like woff, woff2 */
+}
+#he {
+  font-family: "Quentin";
+  font-weight: 100;
+}
+
+#supply {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: 50px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px; /* Adjust the positioning as per your needs */
+  left: 10px; /* Adjust the positioning as per your needs */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+  padding: 8px; /* Padding around the text */
+}
+#navi{
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.next {
+  font-family: "Quentin";
+  font-weight: 200;
+  /* font-size: 180px; */
+  line-height: 160px;
+}
+.under {
+  font-size: 50px;
+}
+.ko {
+  margin: 100px;
+  border: 40px;
+  padding: 40px;
+}
+.p1 {
+  font-style: italic;
+}
+#sea {
+  font-family: Quentin;
+}
+#underline {
+  display: block;
+  border-bottom: 2px solid black;
+  width: 70px;
+}
+#put {
+
+  font-family: 'Courier New', Courier, monospace;
+}
+#tea {
+  background-color: #fafafa;
+}
+#put {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.snag {
+  font-family: Quentin;
+  color: gray;
+}
+#package {
+  color: gray;
+}
+#packages{
+  margin-left:60px;
+  color: gray;
+}
+#wat {
+  font-weight: 600;
+}
+.ada {
+  display: flex;
+  justify-content: center;
+}
+#shopp {
+  height: 50vh;
+  background-color: #fafafa;
+}
+#instagram {
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot {
+  color: white;
+}
+.foots {
+  color: gray;
+}
+#footer {
+  background-color: black;
+  height: 400px;
+}
+#store {
+  margin-left: 40px;
+  margin-top:50px;
+}
+#sub {
+  margin-right: 40px;
+  margin-top: 50px;
+}
+#contactus{
+  margin-top: 50px;
+}
+#help{
+  margin-top: 50px;
+}
+
+input[type="text"] ,#feo{
+  border: 1px solid black;
+  padding: 8px;
+}
+@media screen and (max-width: 600px) {
+  #one,
+  #two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #footer{
+    height:800px;
+  }
+  #contactus{
+  margin-left:30px;
+  }
+  #help{
+    margin-left: 30px;
+  }
+  #sub{
+    margin-left: 30px;
+  }
+}
